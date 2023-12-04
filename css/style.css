@@ -5,12 +5,14 @@
 }
 
 #gridwrapper_huvud {
-    margin: 0;
-    padding: 15px;
+    margin: 15px;
+    padding: 10px;
     box-sizing: border-box;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
     grid-template-rows:  3fr 3fr;
     grid-template-areas: 
     "se1 se1 se2 se2 se2"
@@ -20,31 +22,13 @@
 
 body {
     display: grid;
-    height: 100vh;
-    grid-template-rows: 100px 1000px 100px;
+    grid-template-rows: 120px 945px 100px;
 }
 
 header { 
     background: #09870d;
     display: flex;
     align-items: center;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    width: 1850px;
-    list-style: none;
-
-}
-
-a {
-    text-decoration: none;
-    color: rgb(38, 197, 62);
-}
-
-a:hover {
-    color: rgb(102, 151, 38);
 }
 
 #section_1 {
@@ -54,15 +38,39 @@ a:hover {
 
 #section_2 {
     grid-area: se2;
-    background: pink;
+    background-size: cover;
+    background-image: url(../img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
 }
 
 #section_3 {
     grid-area: se3;
-    background: yellow;
+    background-size: cover;
+    background-image: url(../img/resilience-cbd-J9yRqbAuPTU-unsplash.jpg);
+    position:relative;
+    top: 0%;
+
 }
 
 footer {
     background: black;
     height: 300px;
+
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1850px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(38, 197, 62);
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(102, 151, 38);
+}
+
