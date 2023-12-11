@@ -20,20 +20,28 @@
     ;
 }
 
-body {
+#huvud {
     display: grid;
     grid-template-rows: 120px 945px 100px;
 }
 
 header { 
-    background: #09870d;
+    background: #4CAF50;
     display: flex;
     align-items: center;
+    height: 125px;
 }
 
 #section_1 {
     grid-area: se1;
-    background: brown;
+    background: #4CAF50;
+    Hos Fitfam strävar vi efter att inspirera och stödja dig på din träningsresa. Vi är mer än bara en träningsutrustningsleverantör; vi är en gemenskap av passionerade individer som delar kärleken till ett hälsosamt och aktivt liv.</p>
+
+     Vi förstår att varje träningsresa är unik, och därför erbjuder vi ett brett utbud av högkvalitativa träningsprodukter som är designade för att passa olika behov och mål. Oavsett om du är en erfaren atlet eller nybörjare, har vi verktygen och resurserna för att stödja dig på vägen till framgång.</p>
+
+   <p>Fitfam grundades med visionen att skapa en stark och stöttande gemenskap för alla som strävar efter att förbättra sitt välbefinnande genom träning. Vårt team består av experter inom träning och hälsa som är dedikerade till att erbjuda kundservice av högsta kvalitet och förse dig med de bästa produkterna på marknaden.</p>
+
+    <p>Oavsett om du letar efter träningsutrustning, kosttillskott eller inspirerande träningsråd, är Fitfam platsen där din träningsresa blir verklighet. Vi ser fram emot att vara en del av din resa mot ett hälsosamt och lyckligt liv!</p>
 }
 
 #section_2 {
@@ -46,31 +54,142 @@ header {
     grid-area: se3;
     background-size: cover;
     background-image: url(../img/resilience-cbd-J9yRqbAuPTU-unsplash.jpg);
-    position:relative;
-    top: 0%;
-
 }
 
 footer {
     background: black;
-    height: 300px;
+    height: 200px;
 
 }
 
 ul {
     display: flex;
     justify-content: space-around;
-    width: 1850px;
+    width: 1800px;
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: rgb(38, 197, 62);
+    color: white;
     font-size: 30px;
 }
 
-a:hover {
+#link:hover {
     color: rgb(102, 151, 38);
 }
 
+.contact-us-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info,
+.social-media {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p, a {
+    margin: 5px 0;
+}
+
+#gridwrapper_posts {
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "se4 se4 se6 se7 se7"
+    "se5 se5 se6 se7 se7"
+    "se5 se5 se6 se7 se7"
+    ;
+}
+
+#section_4 {
+    grid-area: se4;
+    background-color: aqua;
+}
+
+#section_5 {
+    grid-area: se5;
+    background-color: aquamarine;
+}
+
+#section_6 {
+    grid-area: se6;
+    background-color: bisque;
+}
+
+#section_7 {
+    grid-area: se7;
+    background-color: blueviolet;
+}
+
+#gridwrapper_shop {
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows:  2fr 2fr;
+    grid-template-areas: 
+    "se8 se9 se10 se11"
+    "se12 se13 se14 se15"
+    ;
+}
+
+#section_8 {
+    grid-area: se8;
+    background-color: gainsboro;
+}
+
+#section_9 {
+    grid-area: se9;
+    background-color: fuchsia;
+}
+
+#section_10 {
+    grid-area: se10;
+    background-color:crimson
+}
+
+#section_11 {
+    grid-area: se11;
+    background-color: chartreuse;
+}
+
+#section_12 {
+    grid-area: se12;
+    background-color: burlywood;
+}
+
+#section_13 {
+    grid-area: se13;
+    background-color:aqua;
+}
+
+#section_14 {
+    grid-area: se14;
+    background-color: cornflowerblue;
+}
+
+#section_15 {
+    grid-area: se15;
+    background-color: darkgreen;
+}
