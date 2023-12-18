@@ -29,27 +29,25 @@ header {
     background: #4CAF50;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 125px;
 }
 
 #section_1 {
     grid-area: se1;
-    background: white;
     border: solid #4CAF50;
+    background: #4CAF50;
     border-width: 8px;
-    Hos Fitfam strävar vi efter att inspirera och stödja dig på din träningsresa. Vi är mer än bara en träningsutrustningsleverantör; vi är en gemenskap av passionerade individer som delar kärleken till ett hälsosamt och aktivt liv.</p>
-
-     Vi förstår att varje träningsresa är unik, och därför erbjuder vi ett brett utbud av högkvalitativa träningsprodukter som är designade för att passa olika behov och mål. Oavsett om du är en erfaren atlet eller nybörjare, har vi verktygen och resurserna för att stödja dig på vägen till framgång.</p>
-
-   <p>Fitfam grundades med visionen att skapa en stark och stöttande gemenskap för alla som strävar efter att förbättra sitt välbefinnande genom träning. Vårt team består av experter inom träning och hälsa som är dedikerade till att erbjuda kundservice av högsta kvalitet och förse dig med de bästa produkterna på marknaden.</p>
-
-    <p>Oavsett om du letar efter träningsutrustning, kosttillskott eller inspirerande träningsråd, är Fitfam platsen där din träningsresa blir verklighet. Vi ser fram emot att vara en del av din resa mot ett hälsosamt och lyckligt liv!</p>
+    font-size: 1.75rem;
 }
+
 
 #section_2 {
     grid-area: se2;
+    font-size: 2rem;
+    color: #09ed11;;
+    background-image: url(../img/projekt1-bild1.jpg);
     background-size: cover;
-    background-image: url(../img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
     border: solid #4CAF50;
     border-width: 8px;
     
@@ -58,7 +56,7 @@ header {
 #section_3 {
     grid-area: se3;
     background-size: cover;
-    background-image: url(../img/resilience-cbd-J9yRqbAuPTU-unsplash.jpg);
+    background-image: url(../img/projekt1-bild2.jpg);
     border: solid #4CAF50;
     border-width: 8px;
 }
@@ -128,28 +126,33 @@ p, a {
 
 #section_4 {
     grid-area: se4;
-    background-color: aqua;
+    background-image: url(../img/projekt1-bild3.jpg);
+    background-size: cover;
     border: solid #4CAF50;
     border-width: 8px;
+
 }
 
 #section_5 {
     grid-area: se5;
-    background-color: aquamarine;
+    background-image: url(../img/projekt1-bild4.jpg);
+    background-size: cover;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_6 {
     grid-area: se6;
-    background-color: bisque;
+    background-image: url(../img/projekt1-bild5.jpg);
+    background-size: 100%;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_7 {
     grid-area: se7;
-    background-color: blueviolet;
+    background-image: url(../img/projekt1-bild6.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
@@ -163,65 +166,73 @@ p, a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
-    grid-template-rows:  2fr 2fr;
+    grid-template-rows:  1fr 1fr;
     grid-template-areas: 
-    "se8 se9 se10 se11"
-    "se12 se13 se14 se15"
+    "se8 se9 s10 s11"
+    "s12 s13 s14 s15"
     ;
 }
 
 #section_8 {
     grid-area: se8;
-    background-color: gainsboro;
+    background-image: url(../img/projekt1-bild7.jpg);
+    background-size: cover;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_9 {
     grid-area: se9;
-    background-color: fuchsia;
+    background-image: url(../img/projekt1-bild8.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_10 {
-    grid-area: se10;
-    background-color:crimson;
+    grid-area: s10;
+    background-image: url(../img/projekt1-bild9.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_11 {
-    grid-area: se11;
-    background-color: chartreuse;
+    grid-area: s11;
+    background-image: url(../img/projekt1-bild10.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_12 {
-    grid-area: se12;
-    background-color: burlywood;
+    grid-area: s12;
+    background-image: url(../img/projekt1-bild11.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_13 {
-    grid-area: se13;
-    background-color:aqua;
+    grid-area: s13;
+    background-image: url(../img/projekt1-bild12.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_14 {
-    grid-area: se14;
-    background-color: cornflowerblue;
+    grid-area: s14;
+    background-image: url(../img/projekt1-bild13.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
 
 #section_15 {
-    grid-area: se15;
-    background-color: darkgreen;
+    grid-area: s15;
+    background-image: url(../img/projekt1-bild14.jpg);
+    background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
 }
