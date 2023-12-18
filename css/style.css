@@ -34,7 +34,9 @@ header {
 
 #section_1 {
     grid-area: se1;
-    background: #4CAF50;
+    background: white;
+    border: solid #4CAF50;
+    border-width: 8px;
     Hos Fitfam strävar vi efter att inspirera och stödja dig på din träningsresa. Vi är mer än bara en träningsutrustningsleverantör; vi är en gemenskap av passionerade individer som delar kärleken till ett hälsosamt och aktivt liv.</p>
 
      Vi förstår att varje träningsresa är unik, och därför erbjuder vi ett brett utbud av högkvalitativa träningsprodukter som är designade för att passa olika behov och mål. Oavsett om du är en erfaren atlet eller nybörjare, har vi verktygen och resurserna för att stödja dig på vägen till framgång.</p>
@@ -48,12 +50,17 @@ header {
     grid-area: se2;
     background-size: cover;
     background-image: url(../img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+    border: solid #4CAF50;
+    border-width: 8px;
+    
 }
 
 #section_3 {
     grid-area: se3;
     background-size: cover;
     background-image: url(../img/resilience-cbd-J9yRqbAuPTU-unsplash.jpg);
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 footer {
@@ -76,7 +83,8 @@ a {
 }
 
 #link:hover {
-    color: rgb(102, 151, 38);
+    color: rgb(123, 208, 13);
+    text-decoration: underline;
 }
 
 .contact-us-footer {
@@ -121,21 +129,29 @@ p, a {
 #section_4 {
     grid-area: se4;
     background-color: aqua;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_5 {
     grid-area: se5;
     background-color: aquamarine;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_6 {
     grid-area: se6;
     background-color: bisque;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_7 {
     grid-area: se7;
     background-color: blueviolet;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #gridwrapper_shop {
@@ -157,39 +173,55 @@ p, a {
 #section_8 {
     grid-area: se8;
     background-color: gainsboro;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_9 {
     grid-area: se9;
     background-color: fuchsia;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_10 {
     grid-area: se10;
-    background-color:crimson
+    background-color:crimson;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_11 {
     grid-area: se11;
     background-color: chartreuse;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_12 {
     grid-area: se12;
     background-color: burlywood;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_13 {
     grid-area: se13;
     background-color:aqua;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_14 {
     grid-area: se14;
     background-color: cornflowerblue;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
 
 #section_15 {
     grid-area: se15;
     background-color: darkgreen;
+    border: solid #4CAF50;
+    border-width: 8px;
 }
