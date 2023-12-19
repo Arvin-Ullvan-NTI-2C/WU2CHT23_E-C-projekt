@@ -55,6 +55,8 @@ header {
 #section_3 {
     grid-area: se3;
     background-size: cover;
+    font-size: 2rem;
+    color: #09ed11;
     background-image: url(../img/projekt1-bild2.jpg);
     border: solid #4CAF50;
     border-width: 8px;
