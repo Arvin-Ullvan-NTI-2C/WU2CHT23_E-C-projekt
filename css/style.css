@@ -36,7 +36,6 @@ header {
 #section_1 {
     grid-area: se1;
     border: solid #4CAF50;
-    background: #4CAF50;
     border-width: 8px;
     font-size: 1.75rem;
 }
@@ -45,7 +44,7 @@ header {
 #section_2 {
     grid-area: se2;
     font-size: 2rem;
-    color: #09ed11;;
+    color: #09ed11;
     background-image: url(../img/projekt1-bild1.jpg);
     background-size: cover;
     border: solid #4CAF50;
@@ -151,7 +150,7 @@ p, a {
 
 #section_7 {
     grid-area: se7;
-    background-image: url(../img/projekt1-bild6.jpg);
+    background-image: url(../img/projekt1-bild6.v2.jpg);
     background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
@@ -235,4 +234,8 @@ p, a {
     background-size: contain;
     border: solid #4CAF50;
     border-width: 8px;
+}
+
+.section-shop:hover {
+    transform: scale(1.1,1.1);
 }
